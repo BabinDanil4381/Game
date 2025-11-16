@@ -7,7 +7,7 @@
 int main(int argc, char* argv[])
 {
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon("C:/Users/tomil/Downloads/user1.jpg"));
+    app.setWindowIcon(QIcon(":/images/images/user1.jpg"));
 
     GameModel* model = new GameModel();
     GameView* view = new GameView(model);
@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     QMainWindow window;
     window.setCentralWidget(view);
     window.setWindowTitle("Game");
-    window.resize(800, 800);
+    window.resize(650, 800);
     window.show();
 
     return app.exec();
