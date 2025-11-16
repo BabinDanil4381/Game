@@ -32,7 +32,7 @@ jobs:
       run: |
         mkdir -p build
         cd build
-        qmake6 ../SpellCardBattle.pro
+        qmake6 ../Game.pro
         make -j4
         
     - name: Create AppImage with linuxdeploy + qt plugin

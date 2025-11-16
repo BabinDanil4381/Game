@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/boloto1.jpg</file>
+        <file>images/build.png</file>
+        <file>images/enemy.jpg</file>
+        <file>images/icon.jpg</file>
+        <file>images/icon1.jpg</file>
+        <file>images/improve.jpg</file>
+        <file>images/improve.png</file>
+        <file>images/leon.jpg</file>
+        <file>images/lightning.jpg</file>
+        <file>images/lightning.png</file>
+        <file>images/map.jpg</file>
+        <file>images/plant.jpg</file>
+        <file>images/poison.jpg</file>
+        <file>images/tower1.jpg</file>
+        <file>images/trap.jpg</file>
+        <file>images/user1.jpg</file>
+    </qresource>
+</RCC>
